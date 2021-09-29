@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
@@ -23,7 +23,7 @@ function Application() {
                   <td>2019-05-28</td>
                   <td>Magica Dimitrova</td>
                   <td>dashboard.my.sweetcloud.se</td>
-                </tr>
+                </tr>  
               </Tbody>
             </Table>
         </Container>

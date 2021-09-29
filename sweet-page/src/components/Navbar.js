@@ -47,10 +47,12 @@ const NavContainer = styled.div`
 const NavText = styled.ul`
    list-style: none;
    color: white;
+   padding: 0;
 
    li {
        padding-bottom: 10px;
        padding-top: 10px;
+       padding-left: 40px;
    }
    li:hover {
        background-color: rgb(48, 47, 70);;
@@ -63,13 +65,16 @@ const SweetLink = styled(Link)`
   text-decoration: none;
   color: white;
   font-size: 22px;
+  padding-left: 40px;
 `
 const MenuLink = styled(Link)`
   display: flex;
   flex-direction: column;
-  padding-bottom: 20px; 
+  padding-bottom: 10px;
+  padding-top: 10px; 
   text-decoration: none;
   color: white;
+  padding-left: 40px;
   :hover {
        background-color: rgb(48, 47, 70);;
    }
@@ -77,9 +82,12 @@ const MenuLink = styled(Link)`
 const Support = styled.ul`
    list-style: none;
    color: white;
+   padding: 0;
    
    li {
-       padding-bottom: 20px;
+    padding-bottom: 10px;
+       padding-top: 10px;
+       padding-left: 40px;
    }
    li:hover {
        background-color: rgb(48, 47, 70);;

@@ -18,6 +18,7 @@ function Create() {
         history.push("/application")
     }
 
+
     return (
         <Container>
         <Formcon>
@@ -32,7 +33,7 @@ function Create() {
               <label>URL adress</label>
                  <input required type="text" value={url} onChange={(e) => setUrl(e.target.value)} />
               <label>Connect a domain you already own</label>
-                 <input required type="text" value={connect} onChange={(e) => setConnect(e.target.value)} />
+                 <input type="text" value={connect} onChange={(e) => setConnect(e.target.value)} />
                  <Add>
                     <i className="fa fa-plus"></i>
                     <p>Add more</p>
