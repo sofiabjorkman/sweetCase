@@ -3,7 +3,6 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/HomePage';
 import Application from './components/Application';
-import Create from './components/Create';
 import {
   BrowserRouter as Router,
   Switch,
@@ -20,7 +19,6 @@ function App() {
       <Switch>
          <Route path="/" exact component={Home} />
          <Route path="/application" component={Application} />
-         <Route path="/create" component={Create} />
       </Switch>
       </div>
     </Router>
